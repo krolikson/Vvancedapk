@@ -1,4 +1,4 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -31,13 +31,13 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [Spotify]
-enabled = false
+enabled = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
 # https://github.com/j-hc/revanced-magisk-module/issues/554
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -47,7 +47,7 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -62,19 +62,19 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 dpi = "120-640dpi"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [TikTok]
-enabled = false
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+enabled = true
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 included-patches = "'SIM spoof'"
 
 [Messenger]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
